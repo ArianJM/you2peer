@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/fileImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:contentDescription="@string/fileImageDescription"
+        android:src="@drawable/file"
+        android:onClick="onImageClick" />
+    
+    <TextView
+        android:id="@+id/fileType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="@string/fileType"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/fileSize"
+        android:text="@string/fileSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:textSize="15dp" />
+
+	<TextView
+	    android:id="@+id/fileOwner"
+	    android:text="@string/fileOwner"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:textSize="15dp" />
+
+	<TextView
+	    android:id="@+id/fileRating"
+	    android:text="@string/fileRating"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:textSize="15dp" />
+
+</LinearLayout>

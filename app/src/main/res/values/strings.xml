@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">U2P</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Groups</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">U2P</string>
+    <string name="add_group">New Group</string>
+    <string name="add_file">Add File</string>
+    <string name="find_file">Search</string>
+    <string name="refresh">Refresh</string>
+    <string name="fileName">Name</string>
+    <string name="user">User</string>
+    <string name="size">Size Kb</string>
+    <string name="rating">15/20</string>
+    <string name="nothing"></string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="groupName">Group Name</string>
+    <string name="loginDialogTitle">Group login</string>
+    <string name="login">Log in</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_file_details">File Details Activity</string>
+    <string name="fileType">File type:</string>
+    <string name="fileOwner">File owner:</string>
+    <string name="fileSize">File size:</string>
+    <string name="fileRating">File rating:</string>
+    <string name="fileImageDescription">File type image and download button</string>
+    <string name="rating_good">Good</string>
+    <string name="rating_bad">Bad</string>
+    <string name="title_activity_file_selection">Files to Share</string>
+    <string name="share_files">Share</string>
+    <string name="createService">Create service</string>
+    <string name="connectService">Connect</string>
+    <string name="goUp">Go Up</string>
+    <string name="directories">Directories</string>
+    <string name="files">Files</string>
+
+</resources>

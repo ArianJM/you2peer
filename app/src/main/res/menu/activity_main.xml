@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- SETTINGS 
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" /> -->
+    
+    <item android:id="@+id/add_group"
+        android:icon="@drawable/social_add_group"
+        android:title="@string/add_group"
+        android:showAsAction="ifRoom"
+        android:onClick="loginDialog"/>
+    
+    <item android:id="@+id/add_file"
+        android:icon="@drawable/collections_collection"
+        android:title="@string/add_file"
+        android:showAsAction="ifRoom"
+        android:onClick="addFiles" />
+    
+    <!-- BUSCAR 
+    <item android:id="@+id/find_file"
+        android:icon="@drawable/action_search"
+        android:title="@string/find_file"
+        android:showAsAction="ifRoom"/> -->
+    
+    <item android:id="@+id/refresh"
+        android:icon="@drawable/navigation_refresh"
+        android:onClick="discoverService"
+        android:showAsAction="ifRoom"
+        android:title="@string/refresh"/>
+    
+    <item android:id="@+id/connect"
+        android:onClick="connectService"
+        android:icon="@drawable/connect"
+        android:showAsAction="ifRoom"
+        android:title="@string/connectService"/>
+    
+    <item android:id="@+id/register"
+        android:onClick="registerService"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/createService"/>
+</menu>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/rating_up"
+        android:icon="@drawable/rating_good"
+        android:title="@string/rating_good"
+        android:showAsAction="always" />
+        
+    <item android:id="@+id/rating_bad"
+        android:icon="@drawable/rating_bad"
+        android:title="@string/rating_bad"
+        android:showAsAction="always" />
+</menu>
